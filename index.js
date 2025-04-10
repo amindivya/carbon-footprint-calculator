@@ -20,7 +20,7 @@ app.post("/calculate", (req, res) => {
 
   let suggestion = "Great job!";
   if (carbonFootprint > 300) {
-    suggestion = "#";
+     suggestion = "Try taking public transport or carpooling!";
   }
 
   res.json({
